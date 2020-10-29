@@ -17,12 +17,8 @@ external classifier. I filter the list of elements through the helper i created 
 
 1. added [Immer](https://immerjs.github.io/immer/docs/introduction) to simplify the store handling and make
 the reducer functions more readable and easier to debug.
-
-
-2.I added uuid to use as key property for the list of allergens since the allergens array is just an array of string
+2. I added uuid to use as key property for the list of allergens since the allergens array is just an array of string
 and it's not best practice to use index for the key.
-
-
 3. I didn't use Redux Thunk for a couple of reasons. I didn't think it's going to add alot of value to the project
 here and if i was going to use a side effect handler, i prefer Redux-Saga (more control) and finally
 for the main reason is lack of time
@@ -35,8 +31,7 @@ The main instructions were straight forward and relatively easy to implement wit
 I spent most of the time on the design part and making everything look similar to what you guys made already.
 
 
-
-#Frichti Front-End Exercise
+# Frichti Front-End Exercise
 Frichti is a tech company that requires to automate the food creation, sales and delivery. Each step of the food workflow, from our FoodLab to consumer, requires the right business logic and technical processes to ensure scalability and performance.
 
 ## Objective
